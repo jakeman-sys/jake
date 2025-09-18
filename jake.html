@@ -4,6 +4,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        @media (max-width: 768px) {
+            .container {
+                width: 95%;
+                padding: 10px;
+            }
+            
+            .nav-links {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .nav-links li {
+                margin: 5px 0;
+            }
+            
+            .main-content {
+                flex-direction: column;
+            }
+            
+            .gallery {
+                grid-template-columns: 1fr;
+            }
+            
+            .gallery-item {
+                height: 100px;
+            }
+            
+            header h1 {
+                font-size: 1.5rem;
+            }
+        }
         span a {
             width: 180px;
             height: 80px;
@@ -98,5 +129,6 @@
         <p>已经本人同意授权</p>
     </dibulan>
     
+
 
 </body></html>
